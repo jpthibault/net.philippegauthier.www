@@ -1,0 +1,50 @@
+.page--work {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	.centered {
+		z-index: 3;
+	}
+	&.animated {
+		-webkit-animation: fadeImg 0.75s infinite ease;
+	    -moz-animation: fadeImg 0.75s infinite ease;
+	    -ms-animation: fadeImg 0.75s infinite ease;
+	    -o-animation: fadeImg 0.75s infinite ease;
+		animation: fadeImg 0.75s infinite ease;	
+	}
+}
+.bg1,
+.bg2 {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-size: cover;
+}
+.btn--work {
+	max-width: 370px;
+	display: block;
+	text-align: center;
+	padding: 4rem;
+	font-size: 120px;
+	display: block;
+	line-height: 120px;
+	img {
+		visibility: hidden;
+	}
+	&:hover {
+		span {
+			visibility: hidden;
+		}
+		img {
+			visibility: visible;
+		}
+
+	}
+}
